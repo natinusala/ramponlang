@@ -61,6 +61,23 @@
 #define les
 #define copies }
 
+//TODO for : visitons
+//TODO foreach : pour tout
+
+//Variables declaration :
+//pour tout relatif x = 8 chut
+#define pour
+#define tout
+
+//Functions definition :
+//definissons relatif y(posons relatif x) vous sortez une feuille ... faites passer les copies
+#define definissons
+#define posons
+
+//Misc :
+//et : ,
+#define et ,
+
 //Typedefs :
 // bavardage : char*
 //naturel : unsigned

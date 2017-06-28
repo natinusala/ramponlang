@@ -96,6 +96,13 @@ typedef int relatif;
 //For :
 //visitons
 #define visitons for
+#define puis ;
+#define effectuons
+//While :
+//preuve de terminaison
+#define preuve
+#define de
+#define terminaison while
 
 //Garbage :
 //inductif

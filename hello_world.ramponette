@@ -1,36 +1,29 @@
 #include "ramponlang.h"
 
-zero hello_world(bavardage prenom)
-{
+zero hello_world(bavardage prenom) vous sortez une feuille
   bavarder ("Bonjour %s !\n", prenom) chut
-}
+faites passer les copies
 
-relatif inductif fib(naturel n)
-{
-    supposons que (n == 0)
-    {
+relatif inductif fib(naturel n) vous sortez une feuille
+    supposons que (n == 0) vous sortez une feuille
         vous avez 0 chut
-    }
-    bon tant pis supposons que (n == 1)
-    {
+    faites passer les copies
+    bon tant pis supposons que (n == 1) vous sortez une feuille
         vous avez 1 chut
-    }
+    faites passer les copies
 
     vous avez interroger(fib) sur (n-1) + interroger(fib) sur (n-2) chut
-}
+faites passer les copies
 
-se lever lundi pour huit heures
-{
-  supposons que (argc != 2)
-  {
+se lever lundi pour huit heures vous sortez une feuille
+  supposons que (argc != 2) vous sortez une feuille
     bavarder ("Vous êtes qui ?\n") chut
-  }
-  bon tant pis
-  {
+  faites passer les copies
+  bon tant pis vous sortez une feuille
     interroger (hello_world) sur (argv[1]) chut
     relatif fib6 = interroger(fib) sur (6) chut
     bavarder("fib(6) = %d\n", fib6) chut
-  }
+  faites passer les copies
 
   vous avez 0 chut
-}
+faites passer les copies

@@ -49,6 +49,18 @@
 //bavarder : printf
 #define bavarder printf
 
+//Brackets
+//{ : vous sortez une feuille
+#define vous
+#define sortez
+#define une
+#define feuille {
+//} : faites passer les copies
+#define faites
+#define passer
+#define les
+#define copies }
+
 //Typedefs :
 // bavardage : char*
 //naturel : unsigned

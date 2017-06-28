@@ -18,6 +18,11 @@
 #define questions
 #define repondues
 
+//C/C++ interoperability
+//C : vacances "C"
+//C++ : vacances "C++"
+#define vacances extern
+
 //Semicolon :
 //chut
 #define chut ;

@@ -94,10 +94,14 @@ typedef int relatif;
 #define tant
 #define pis else
 //For :
-//visitons
+//visitons (trappe relatif x = 0 puis effectuons x++ puis refermons quand x < 5)
 #define visitons for
+#define trappe
 #define puis ;
 #define effectuons
+#define refermons
+#define quand
+
 //While :
 //preuve de terminaison
 #define preuve

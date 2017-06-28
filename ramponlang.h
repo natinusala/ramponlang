@@ -62,7 +62,6 @@
 #define copies }
 
 //TODO for : visitons
-//TODO foreach : pour tout
 
 //Variables declaration :
 //pour tout relatif x = 8 chut

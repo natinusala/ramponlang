@@ -61,15 +61,13 @@
 #define les
 #define copies }
 
-//TODO for : visitons
-
 //Variables declaration :
 //pour tout relatif x = 8 chut
 #define pour
 #define tout
 
 //Functions definition :
-//definissons relatif y(posons relatif x) vous sortez une feuille ... faites passer les copies
+//definissons relatif y(posons relatif x)
 #define definissons
 #define posons
 
@@ -87,14 +85,17 @@ typedef int relatif;
 
 //Control blocks :
 //If :
-//supponsons que (...) {...}
+//supponsons que (...)
 #define supposons
 #define que if
 //Else / Else if :
-//bon tant pis [suppons que (...)] {...}
+//bon tant pis [suppons que (...)]
 #define bon
 #define tant
 #define pis else
+//For :
+//visitons
+#define visitons for
 
 //Garbage :
 //inductif

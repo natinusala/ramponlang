@@ -1,5 +1,5 @@
 # ramponlang
-## Jean-Xavier Rampon inspired "programming language"
+## A Mr. Rampon inspired "programming language"
 
 Full language rules and specification are in the wiki : https://github.com/natinusala/ramponlang/wiki/ramponlang-specifications
 

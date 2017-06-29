@@ -41,14 +41,6 @@ se lever lundi pour huit heures vous sortez une feuille
 faites passer les copies
 ```
 
-Usage : 
-```
-g++ -x c++ hello_world.ramponette -o hello_world
-./hello_world Full Name
-```
-
 ## How to use
 
-Create a `.ramponette` file and include the ramponlang header : `#include "ramponlang.hpp"`
-
-Compile with : `g++ -x c++ <file>.ramponette`
+Create a `.ramponette` file and compile it with : `ramponc [ramponette] [compiler options]`. The `ramponnade` file is required for `ramponc` to work, make sure that it is available.

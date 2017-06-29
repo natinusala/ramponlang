@@ -1,7 +1,5 @@
-#ifndef RAMPON_H
-#define RAMPON_H
-
-#define RAMPON_VERSION 0.1
+#ifndef RAMPONLANG_H
+#define RAMPONLANG_H
 
 #include <stdio.h>
 #include <stdlib.h>

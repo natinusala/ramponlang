@@ -43,6 +43,6 @@ faites passer les copies
 
 Create a `.ramponette` file and compile it with : `ramponc [ramponette] [compiler options]`. The `ramponnade` file is required for `ramponc` to work, make sure that it is available.
 
-## `ramponc` Dependencies
+## `ramponc` requirements
  - `g++` compiler installed
  - `/bin/sh` available

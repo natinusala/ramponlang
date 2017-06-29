@@ -1,5 +1,9 @@
+//ramponlang language definition
+
 #ifndef RAMPONLANG_HPP
 #define RAMPONLANG_HPP
+
+#define RAMPONLANG_VERSION 1
 
 #include <stdio.h>
 #include <stdlib.h>

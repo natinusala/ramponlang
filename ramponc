@@ -3,10 +3,11 @@
 if [ $# -lt 1 ]
 then
   echo "Usage : ramponc [ramponette] [compiler options]"
-else
+elif [ -e ramponnade ]
+then
   tmpfile=$(mktemp /tmp/$1.XXXXXX)
 
-  cat ramponlang.hpp >> $tmpfile
+  cat ramponnade >> $tmpfile
   cat $1 >> $tmpfile
 
   shift
@@ -18,4 +19,6 @@ else
   g++ -x c++ $tmpfile$params
 
   rm -f "$tmpfile"
+else
+  echo "Couldn't find the ramponlang specification file (\"ramponnade\")"
 fi

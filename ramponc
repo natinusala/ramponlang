@@ -5,20 +5,25 @@ then
   echo "Usage : ramponc [ramponette] [compiler options]"
 elif [ -e ramponnade ]
 then
-  tmpfile=$(mktemp /tmp/$1.XXXXXX)
+  if [ -e $1 ]
+  then
+    tmpfile=$(mktemp /tmp/$1.XXXXXX)
 
-  cat ramponnade >> $tmpfile
-  cat $1 >> $tmpfile
+    cat ramponnade >> $tmpfile
+    cat $1 >> $tmpfile
 
-  shift
-  for i in $*;
-  do
-      params="$params $i"
-  done
+    shift
+    for i in $*;
+    do
+        params="$params $i"
+    done
 
-  g++ -x c++ $tmpfile$params
+    g++ -x c++ $tmpfile$params
 
-  rm -f "$tmpfile"
+    rm -f "$tmpfile"
+  else
+    echo "Couldn't find input file : $1"
+  fi
 else
   echo "Couldn't find the ramponlang specification file (\"ramponnade\")"
 fi

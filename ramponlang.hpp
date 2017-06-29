@@ -1,5 +1,5 @@
-#ifndef RAMPONLANG_H
-#define RAMPONLANG_H
+#ifndef RAMPONLANG_HPP
+#define RAMPONLANG_HPP
 
 #include <stdio.h>
 #include <stdlib.h>

@@ -1,15 +1,13 @@
 # ramponlang
 ## Jean-Xavier Rampon inspired "programming language"
 
-Full language rules and specification are in the wiki.
+Full language rules and specification are in the wiki : https://github.com/natinusala/ramponlang/wiki/ramponlang-specifications
 
 ## Hello World
 
 This snippet prints your name and the value of `fibonnaci(6)` :
 
 ```
-#include "ramponlang.hpp"
-
 definissons zero hello_world(posons bavardage nom et bavardage prenom) vous sortez une feuille
   bavarder ("Bonjour %s %s !\n", prenom, nom) chut
 faites passer les copies

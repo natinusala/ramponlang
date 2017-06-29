@@ -1,0 +1,21 @@
+#!/bin/sh
+
+if [ $# -lt 1 ]
+then
+  echo "Usage : ramponc [ramponette] [compiler options]"
+else
+  tmpfile=$(mktemp /tmp/$1.XXXXXX)
+
+  cat ramponlang.hpp >> $tmpfile
+  cat $1 >> $tmpfile
+
+  shift
+  for i in $*;
+  do
+      params="$params $i"
+  done
+
+  g++ -x c++ $tmpfile$params
+
+  rm -f "$tmpfile"
+fi

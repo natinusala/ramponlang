@@ -1,5 +1,3 @@
-#include "ramponlang.hpp"
-
 definissons zero hello_world(posons bavardage nom et bavardage prenom) vous sortez une feuille
   bavarder ("Bonjour %s %s !\n", prenom, nom) chut
 faites passer les copies

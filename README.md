@@ -7,4 +7,4 @@ Full language rules and specification are in the wiki.
 
 Create a `.ramponette` file and include the ramponlang header : `#include "ramponlang.h"`
 
-Compile with : `gcc -x c hello_world.ramponette -std=c99 -o hello_world`
+Compile with : `g++ -x c++ hello_world.ramponette -o hello_world`

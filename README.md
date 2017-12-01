@@ -24,11 +24,11 @@ definissons relatif inductif fib(posons naturel n) vous sortez une feuille
 faites passer les copies
 
 se lever lundi pour huit heures vous sortez une feuille
-  supposons que (argc != 3) vous sortez une feuille
+  supposons que (competences != 3) vous sortez une feuille
     bavarder ("Vous êtes qui ?\n") chut
   faites passer les copies
   bon tant pis vous sortez une feuille
-    interroger (hello_world) sur (argv[1] et argv[2]) chut
+    interroger (hello_world) sur (prerequis[1] et prerequis[2]) chut
 
     pour tout relatif fib6 = interroger(fib) sur (6) chut
 

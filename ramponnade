@@ -3,7 +3,7 @@
 #ifndef RAMPONLANG_HPP
 #define RAMPONLANG_HPP
 
-#define RAMPONLANG_VERSION 2
+#define RAMPONLANG_VERSION 3
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -12,6 +12,14 @@
 //vous avez x
 #define vous
 #define avez return
+
+//Argv
+//prerequis
+#define prerequis argv
+
+//Argc
+//competences
+#define competences argc
 
 //Exit function :
 //examen termine x questions repondues

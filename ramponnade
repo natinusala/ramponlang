@@ -3,7 +3,7 @@
 #ifndef RAMPONLANG_HPP
 #define RAMPONLANG_HPP
 
-#define RAMPONLANG_VERSION 1
+#define RAMPONLANG_VERSION 2
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -25,13 +25,19 @@
 //C++ : vacances "C++"
 #define vacances extern
 
+//null
+//certificat polynomial
+#define certificat
+#define polynomial null
+
 //Semicolon :
 //chut
 #define chut ;
 
 //Void type :
-//zero
-#define zero void
+//copie vide
+#define copie
+#define vide void
 
 //Functions call :
 //interroger (func) sur (params)
@@ -78,12 +84,19 @@
 #define et ,
 
 //Typedefs :
-// bavardage : char*
+//bavardage : char*
 //naturel : unsigned
 //relatif : int
+//note : bool
 typedef char* bavardage;
 typedef unsigned naturel;
 typedef int relatif;
+typedef bool note;
+
+//Booleans
+//0 / 1
+#define zero 0
+#define un 1
 
 //Control blocks :
 //If :

@@ -8,7 +8,7 @@ Full language rules and specification are in the wiki : https://github.com/natin
 This snippet prints your name and the value of `fibonnaci(6)` :
 
 ```
-definissons zero hello_world(posons bavardage nom et bavardage prenom) vous sortez une feuille
+definissons copie vide hello_world(posons bavardage nom et bavardage prenom) vous sortez une feuille
   bavarder ("Bonjour %s %s !\n", prenom, nom) chut
 faites passer les copies
 

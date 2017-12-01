@@ -1,8 +1,8 @@
-definissons copie vide hello_world(posons bavardage nom et bavardage prenom) vous sortez une feuille
+definissons copie vide hello_world(pour tout bavardage nom et bavardage prenom) vous sortez une feuille
   bavarder ("Bonjour %s %s !\n", prenom, nom) chut
 faites passer les copies
 
-definissons relatif inductif fib(posons naturel n) vous sortez une feuille
+definissons relatif inductif fib(pour tout naturel n) vous sortez une feuille
     supposons que (n == 0) vous sortez une feuille
         vous avez 0 chut
     faites passer les copies
@@ -20,7 +20,7 @@ se lever lundi pour huit heures vous sortez une feuille
   bon tant pis vous sortez une feuille
     interroger (hello_world) sur (prerequis[1] et prerequis[2]) chut
 
-    pour tout relatif fib6 = interroger(fib) sur (6) chut
+    posons relatif fib6 = interroger(fib) sur (6) chut
 
     bavarder("fib(6) = %d\n", fib6) chut
   faites passer les copies

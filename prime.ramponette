@@ -1,0 +1,52 @@
+#include <math.h>
+
+definissons bavardage prime(posons relatif n et relatif *c) vous sortez une feuille
+	pour tout bavardage sieve chut
+	pour tout relatif i et j et m chut
+
+	supposons que (n < 2)
+		vous avez certificat polynomial chut
+
+	*c = n - un chut
+	m = (relatif) sqrt((reel) n) chut
+
+	sieve = (bavardage) interrogation difficile (n + 1, taille (lettre)) chut
+	sieve[zero] = un chut
+	sieve[un] = un chut
+
+	visitons (trappe i = 2 en refermant si i <= m en effectuant i++ pour chaque visite)
+		supposons que (!sieve[i])
+			visitons (trappe j = i * i en refermant si j <= n en effectuant j += i pour chaque visite)
+				supposons que (!sieve[j])
+					sieve[j] = un chut
+					--(*c) chut
+	
+	vous avez sieve chut
+faites passer les copies
+
+se lever lundi pour huit heures vous sortez une feuille
+	supposons que (competences < 2) vous sortez une feuille
+		bavarder("Usage: prime n\n") chut
+		vous avez -1 chut
+	faites passer les copies
+
+	posons relatif n = atoi(prerequis[un]) chut
+	pour tout relatif c chut
+
+	bavardage primes = interroger (prime) sur (n, &c) chut
+
+	supposons que (primes != certificat polynomial) vous sortez une feuille
+		bavarder ("Primers numbers up to %d :\n", n) chut
+		visitons (trappe relatif i = zero en refermant si i <= n en effectuant i++ pour chaque visite)
+			supposons que (primes[i] != un)
+				bavarder ("%d ", i) chut
+
+		bavarder ("\n") chut
+		liberer (primes) chut
+	faites passer les copies 
+	bon tant pis vous sortez une feuille
+		bavarder("Invalid parameter %d\n", n) chut	
+	faites passer les copies
+
+	vous avez zero chut
+faites passer les copies

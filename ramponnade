@@ -3,7 +3,7 @@
 #ifndef RAMPONLANG_HPP
 #define RAMPONLANG_HPP
 
-#define RAMPONLANG_VERSION 4
+#define RAMPONLANG_VERSION 5
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -28,6 +28,10 @@
 #define questions
 #define repondues
 
+//Sizeof
+//taille
+#define taille sizeof
+
 //C/C++ interoperability
 //C : vacances "C"
 //C++ : vacances "C++"
@@ -37,12 +41,16 @@
 //calloc
 //interrogation difficile
 #define interrogation
-#define calloc difficile
+#define difficile calloc
+
+//free
+//liberer
+#define liberer free
 
 //null
 //certificat polynomial
 #define certificat
-#define polynomial null
+#define polynomial NULL
 
 //Semicolon :
 //chut
@@ -56,7 +64,7 @@
 //Functions call :
 //interroger (func) sur (params)
 #define interroger(func) func(
-#define sur(params) params)
+#define sur(params...) params)
 
 //Main function :
 //se lever lundi pour huit heures {...}
@@ -106,6 +114,8 @@ typedef char* bavardage;
 typedef unsigned naturel;
 typedef int relatif;
 typedef bool note;
+typedef double reel;
+typedef char lettre;
 
 //Booleans
 //0 / 1
@@ -123,13 +133,15 @@ typedef bool note;
 #define tant
 #define pis else
 //For :
-//visitons (trappe relatif x = 0 puis effectuons x++ puis refermons quand x < 5)
+//visitons (trappe relatif x = 0 en refermant si x < 5 en effectuant x++ pour chaque visite)
 #define visitons for
 #define trappe
-#define puis ;
-#define effectuons
-#define refermons
-#define quand
+#define chaque
+#define en ;
+#define effectuant
+#define visite
+#define refermant
+#define si
 
 //While :
 //preuve de terminaison

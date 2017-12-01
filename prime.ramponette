@@ -36,7 +36,7 @@ se lever lundi pour huit heures vous sortez une feuille
 	bavardage primes = interroger (prime) sur (n, &c) chut
 
 	supposons que (primes != certificat polynomial) vous sortez une feuille
-		bavarder ("Primers numbers up to %d :\n", n) chut
+		bavarder ("Prime numbers up to %d :\n", n) chut
 		visitons (trappe relatif i = zero en refermant si i <= n en effectuant i++ pour chaque visite)
 			supposons que (primes[i] != un)
 				bavarder ("%d ", i) chut

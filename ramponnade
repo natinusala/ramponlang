@@ -3,7 +3,7 @@
 #ifndef RAMPONLANG_HPP
 #define RAMPONLANG_HPP
 
-#define RAMPONLANG_VERSION 3
+#define RAMPONLANG_VERSION 4
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -32,6 +32,12 @@
 //C : vacances "C"
 //C++ : vacances "C++"
 #define vacances extern
+
+//Memory allocation
+//calloc
+//interrogation difficile
+#define interrogation
+#define calloc difficile
 
 //null
 //certificat polynomial

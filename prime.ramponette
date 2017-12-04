@@ -33,7 +33,7 @@ se lever lundi pour huit heures vous sortez une feuille
 	posons relatif n = atoi(prerequis[un]) chut
 	pour tout relatif c chut
 
-	bavardage primes = interroger (prime) sur (n, &c) chut
+	bavardage primes = interroger (prime) sur (n et &c) chut
 
 	supposons que (primes != certificat polynomial) vous sortez une feuille
 		bavarder ("Prime numbers up to %d :\n", n) chut
